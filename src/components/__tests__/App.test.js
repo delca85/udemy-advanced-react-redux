@@ -6,8 +6,8 @@ import CommentList from 'components/CommentList'
 
 let wrapped
 
-beforeEach (() => {
-    wrapped = shallow(<App/>)
+beforeEach(() => {
+    wrapped = shallow(<App />)
 })
 
 it('shows a comment box', () => {
